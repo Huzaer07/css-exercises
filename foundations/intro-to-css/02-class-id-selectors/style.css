@@ -1,1 +1,17 @@
-/* Add CSS Styling */
+#Second{
+    color: #0000ff;
+    font-size: 36px;
+}
+#Fourth{
+    background-color:hsl(120, 73%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+}
+#Third{
+    font-size: 24px;
+}
+.Odd-elements
+{
+    background-color: palevioletred;
+    font-family:"Verdana","DejaVu Sans","sans-serif";
+}
