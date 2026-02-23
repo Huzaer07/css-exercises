@@ -3,6 +3,13 @@
 html, body {
   height: 100%;
 }
+.header{
+
+  font-weight: bolder;
+  font-size:24px;
+  margin-bottom:8px;
+ 
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -12,14 +19,46 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
+  text-align: center;
+  
 }
 
+.parentContainer{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+ 
+}
+
+
+.buttonContainer{
+  display:flex;
+  justify-content: flex-start;
+
+} 
+.mainContainer{
+  display:flex;
+  max-width:460px;
+  margin-bottom:16px;
+  text-align:left;
+ 
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);  
+  padding:24px;
+  
+}
+.topContainer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+  
+  
 }
 
 .icon {
@@ -31,8 +70,10 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content:center;
+
+  
 }
 
 .close-button {
@@ -44,8 +85,9 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
+  justify-content:center;
+  gap:100px;
   border: 1px solid #eee;
   padding: 0;
 }
@@ -54,16 +96,24 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  
+  
+
+
+  
 }
 
 button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  
+
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
 }
